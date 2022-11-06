@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(129, 207, 231);
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    font: size 1.8em; 
+}
+.navigation a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: rgb(96, 106, 8);
+}
+.section{
+    padding: 100px 200px;
+}
+.resimler-btn{
+    color: #fff;
+    background-color: rgb(7, 77, 168);
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.site-btn{
+    color: #fff;
+    background-color: rgb(7, 77, 168);
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.vediolar-btn{
+    color: #fff;
+    background-color: rgb(7, 77, 168);
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background: url(images/resim_26.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: rgb(28, 2, 108);
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(28,2,108);
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.main h3{
+    color: rgba(72, 8, 8, 0.779);
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin:10px; ;
+    margin-bottom: 30px;
+    margin-left: 35px;
+    text-shadow: rgb(18, 14, 14);
+}
+.main-btn{
+    color: #fff;
+    background-color: rgb(7, 7, 168);
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    margin-left: 40px;
+}
+.main-btn:hover{
+    background-color: rgb(12, 16, 213);
+    transform: scale(1.1);
+}
+.social-icons a{
+    color: rgb(2, 14, 62);
+    font-size: 2.6em;
+    margin-left: 40px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /25%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 35px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.15);
+}
+.icon {
+    color: blue;
+    font-size: 8em;
+    text-align: center;
+}
+.info {
+    text-align: center;
+}
+.info h3{
+    color: rgb(21, 21, 201);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.ürünlerimiz {
+    background-color: rgb(54, 127, 156);
+}
+.ürünlerimiz .content {
+    margin-top: 30px;
+}
+.Ürünlerimiz-card {
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px;
+    transition: 0.75s ease;
+}
+.ürünlerimiz-card:hover{
+    transform: scale(1.15em);
+}
+.ürünlerimiz-card:hover .project-image{
+    opacity: 0.9;
+}
+.Ürünlerimiz-image img {
+    width: 100%;
+}
+.ürünlerimiz-info{
+    padding: 1em;
+}
+.ürünlerimiz-category{
+    font-size: 0.8em;
+    color: black;
+}
+.ürünlerimiz-title{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-detailes{
+    text-decoration:none;
+    color: blue;
+}
+.more-detailes :hover{
+    color:rgb(55, 78, 2);
+}
+.iletişim .icon {
+    font-size: 4.5em;
+}
+.contact .info h3{
+    color: black;
+}
+.iletişim .info p{
+    font-size: 1.2em;
+}
+.footer{
+    background-color: rgb(4, 153, 153);
+    color: rgb(2, 20, 3);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: rgb(9, 77, 13);
+}
+.footer .social-icons a{
+    font-size: 2em;
+    padding: 0 5px 0 0;
+}
+@media(max-width: 1023px){
+    header{
+    padding:  12px 20px;
+    }
+    .navigation a{
+    padding-left: 10px;
+    }
+    .title{
+    font-size: 1.7em;
+    }
+    selection{
+    padding: 80px 20px;
+    }
+    .main-content h2{
+    font-size: 1em;
+    }
+    .main-content h3 {
+    font-size: 1.6px;
+    }
+.content{
+    flex-direction: column;
+    align-items: center;
+    }
+}
+@media(max-width:641px){
+    body{
+        font-size: 12px;
+    }
+.main-content h2{
+        font-size: 0.7em;
+}
+.main-content h3{
+        font-size: 1.3em;
+}
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+    }
+}
